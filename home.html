@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Modified from https://github.com/IronSummitMedia/startbootstrap-creative -->
+    <title>Amy and Matthew's Wedding</title>
+
+    <link rel="shortcut icon" href="static/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- {% endblock %} -->
+<!-- {% block page_js %} -->
+    <!-- Plugin JavaScript -->
+    <!-- Easing is for the vertical scroll animations -->
+    <script src="static/creative/js/jquery.easing.min.js"></script>
+    <!-- Automatically fit text based on screen size.-->
+    <script src="static/creative/js/jquery.fittext.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="static/creative/js/creative.js"></script>
+<!-- {% endblock %} -->
+
+<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="static/creative/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="static/TheSite/js/footer.js"></script>
+    <script>
+        $(document).ready(function(){
+            setFooterStyle();
+            setFooterStyle();  // hack, for some reason this needs to be called twice on load
+            window.onresize = setFooterStyle;
+        });
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- {% include "partials/google-analytics.html" %} -->
+    <!-- {% block page_head %} -->
+    <!-- {% endblock %} -->
+</head>
+<body id="page-top">
+<!-- {% block page_content %}{% endblock %} -->
+<!-- {% include "partials/footer.html"  %} -->
+
+<!-- {% block page_js %} -->
+<!-- {% endblock %} -->
+
+<!-- {% extends "base.html" %}
+{% load static %}
+{% block page_head %} -->
+    <!-- Custom CSS -->
+    <link href="static/TheSite/css/creative.css" rel="stylesheet">
+<!-- {% endblock %} -->
+<!-- {% block page_content %} -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Amy and Matthew's Wedding </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#main-header2">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#event">Event</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#alnwick">Alnwick</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#other-stuff">Everything Else</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- {% block main %} -->
+    <header id="main-header2">
+        <div class="header-content">
+            <video autoplay muted loop class="bg-video">
+                <source src = "static/TheSite/images/WebsiteBackgroundVideo.mp4">
+            </video>
+            <div class="header-content-inner">
+                <h1>16 August 2024</h1>
+                <hr>
+                <h2>Alnwick, Northumberland </h2>
+                <!-- {% comment %}
+                <a href="#welcome" class="btn btn-info btn-xl page-scroll">Hello</a>
+                <a href="#event" class="btn btn-primary btn-xl page-scroll">Friday</a>
+                <a href="#saturday-event" class="btn btn-success btn-xl page-scroll">Saturday</a>
+                {% endcomment %} -->
+            </div>
+        </div>
+    </header>
+    <section class="bg-info" id="welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Welcome!</h2>
+                    <hr>
+                    <p>
+                        Hello friends and family! We are so excited to celebrate with you all in Alnwick.
+                    </p>
+                    <p>
+                        In the spirit of DIY and saving money, Matt has watched several YouTube videos and put together this website to share all the key information about the event. He would appreciate if you could endorse his "Web Developer" skill on Linkedin.
+                    </p>
+                    <p>
+                        We will be arriving in Alnwick on Wednesday (14/08) to set things up and leaving on Sunday (18/08) for a dreamy 2 week honeymoon in Greece. We recommend everyone arrives at some point on Thursday in time to join us for the <a href="#event" class="page-scroll">Welcome Party</a>. It would be great to see you at the <a href="#BBQ-event" class="page-scroll">Recovery BBQ</a> on Saturday.
+                    </p>
+                    <p>
+                        Please see below for important details about <a href="#wedding-event" class="page-scroll">The Wedding</a> on Friday 16 August 2024.
+                    </p>
+                    <p>
+                        We have put together some information about <a href="#alnwick" class="page-scroll">Alnwick</a> including recommendations for accommodation as well as local highlights in the Northumberland / NE region of the UK.
+                    </p>
+                    <p>
+                        If you have any questions then please don't hesitate to contact us via Matt's email at <a href="mailto:{{ support_email }}">matthew.haertsch@gmail.com</a>.
+                    </p>
+                    <p>
+                        Looking forward to seeing everyone soon!
+                    </p>
+                    <p class="pull-right">- Amy and Matthew</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="no-padding" id="navigation">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#event" class="portfolio-box page-scroll">
+                        <img src="static/TheSite/images/alnwick-garden-summer-map-resized.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    The Event
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#alnwick" class="portfolio-box page-scroll">
+                        <img src="static/TheSite/images/Alnwick_Castle_in_uk.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Alnwick
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#story" class="portfolio-box page-scroll">
+                        <img src="static/TheSite/images/IMG_2734.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Our Story
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- The Event Doc -->
+    <section id="event" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <h2 class="section-heading text-center">Welcome Party</h2>
+                <hr class="primary">
+                <dl class="dl-horizontal lead">
+                    <dt></dt>
+                    <dd>
+                        We will be organising welcome drinks. Further details TBC.
+                    </dd>
+                    <dt>When</dt>
+                    <dd>Thursday Augst 15, time TBC</dd>
+                    <dt>Where</dt>
+                    <dd>
+                        Venue TBC
+                    </dd>
+                    <!-- {% comment %}
+                    <dt>What</dt>
+                    <dd>
+                        Come join us and meet other guests for a few drinks at a local pub
+                    </dd>
+                    <dt>When</dt>
+                    <dd>Thursday Augst 15, from 6pm</dd>
+                    <dt>Where</dt>
+                    <dd>
+                        <address>
+                            Tanners Arms Alnwick<br>
+                            <a href="https://maps.app.goo.gl/mjeKGvtPcyT6xWkRA">2 Hotspur Pl, Alnwick NE66 1QF</a><br>
+                        </address>
+                    </dd>
+                    <dt>Attire</dt>
+                    <dd>Casual</dd>
+                    <dt>General info</dt>
+                    <dd>
+                        We have contacted the owner to let them know we are a large group. The pub does not serve food so please arrange to eat before or after.
+                    </dd>
+                    {% endcomment %} -->
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="wedding-event" class="bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <h2 class="section-heading text-center">The Wedding</h2>
+                <hr class="primary">
+                <dl class="dl-horizontal lead">
+                    <dt></dt>
+                    <dd> The ceremony will take place in The Treehouse followed by reception in the gardnes. </dd>
+                    <hr>
+                    <dt>Date</dt>
+                    <dd>Friday Augst 16 2024</dd>
+                    <dt>Venue info</dt>
+                    <dd>
+                        <address>
+                            <a href="https://www.alnwickgarden.com/">The Alnwick Garden</a><br>
+                        </address>
+                    </dd>
+                    <dt>Address</dt>
+                    <dd>
+                        <address>
+                            <a href="https://maps.app.goo.gl/th4x8syU1p1kk8Ve9">The Alnwick Garden, Denwick Lane, Alnwick NE66 1FJ</a><br>
+                        </address>
+                    </dd>
+                    <dt>Timings</dt>
+                    <dd>The main parts of the day are:
+                        <ul>
+                            <li>Guests arrival: <strong>12.30pm</strong>
+                            <li>Ceremony: <strong>1pm</strong>
+                            <li>Reception: <strong>from 4pm till late</strong>
+                            <li>The end: <strong>midnight</strong>
+                        </ul>
+                    </dd>
+                    <hr>
+                    <dt>Attire</dt>
+                    <dd>Smart casual (think garden party)<br>
+                        Be warned (particularly those from the southern hemisphere): while it is August, there is still a strong possibility it will be grey and cold so please plan accordingly (and hope for sunshine and warm weather!)<br>
+                    </dd>
+                    <dt>Other info</dt>
+                    <dd> The Treehouse and main gardnes are separated by a short walk (less than 5 mins). The Treehouse will be closed to the public for the duration of our ceremony until around 4pm but the gardens will remain open to the public until around 6pm. Both spaces are well equipped for any wet weather.<br>
+                    The venue is a short walk from the main town. Please let us know if you think you will need a taxi as it is best to pre-book.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="BBQ-event" class="bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <h2 class="section-heading text-center">Recovery BBQ</h2>
+                <hr class="primary">
+                <dl class="dl-horizontal lead">
+                    <dt></dt>
+                    <dd>
+                        We will be organising a recovery BBQ. Further details TBC.
+                    </dd>
+                    <dt>When</dt>
+                    <dd>Saturday Augst 17, time TBC</dd>
+                    <dt>Where</dt>
+                    <dd>
+                        Venue TBC
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ALNWICK SECTION -->
+    <section id="alnwick">
+        <!-- {% include 'partials/alnwick.html' %} -->
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="section-heading text-center">Alnwick</h2>
+            <hr class="primary">
+            <p>Alnwick is  ... DESCRIBE THE TOWN AND NORTHUMBERLAND </p>
+            <h3>Getting There </h3>
+            <p>
+                We recommend using public transport to travel to and from Alnwick. The closest train station is Alnmouth. There are regular, direct trains from London Kings Cross that take approximately 3 and a half hours (quite impressive when you consider it is around 500km). The best time to buy tickets is roughly 8-12 weeks from when you would like to travel. We use <a href="https://www.thetrainline.com/">trainline</a>.
+            </p>
+            <p>
+                From Alnmouth it is a short taxi (10 minutes) into Alnwick. There is also a bus that runs every half an hour that takes 20 minutes.
+            </p>
+            <p>
+                We suggest hiring a car if you would like to explore more of Northumberland. This is probably best done from Newcastle-upon-Tyne as this is the closest major city.
+            </p>
+            <hr class="primary">
+            <h3>Where to Stay</h3>
+            <p>
+                Below is a list of recommendations for reasonably priced places to stay in Alnwick. The weddinng will be during UK school holidays so we suggest securing accommodation soon.
+            </p>
+            <table class="table table-striped">
+                <tr>
+                    <th class="col-md-2"><a href="https://www.classiclodges.co.uk/the-white-swan/">The White Swan</a></th>
+                    <td>
+                        The hotel is located at the centre of town and is set in a 300-year old coaching inn.
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="https://theoakshotel.co.uk/">The Oaks Hotel</a></th>
+                    <td>
+                        This hotel is also centrally located in Alnwick in a smaller building with 13 rooms.
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="https://www.inncollectiongroup.com/hogs-head-inn/">Premier Inn</a></th>
+                    <td>
+                        This budget hotel is located 5 minutes drive from the main town.
+                    </td>
+                </tr>
+                <tr>
+                    <th><a href="https://www.inncollectiongroup.com/hogs-head-inn/">The Hogs Head Inn</a></th>
+                    <td>
+                        Also located slightly outside the main town, this is another good option for those on more of a budget.
+                    </td>
+                </tr>
+                <tr>
+                    <th>Other options</th>
+                    <td>
+                        There are a selection of boutique cottages and holiday homes available on <a href="https://www.booking.com">Booking.com</a> and <a href="https://https://www.airbnb.co.uk/">Airbnb</a>. However, just to let you know, we had quite a few challenges securing our own accommodation through these platforms because many of the options required a minimum amount of nights or to check in and out on specific days of the week that did not align with our dates.
+                    </td>
+                </tr>
+            </table>
+            <hr class="primary">
+            <h3>Local Highlights</h3>
+            <p>The Northumberland region is known for its deep history and natural beauty. Amy and her Mam have put together a great list of local highlights for everyone traveling to the region for the first time. For those wondering, "Mam" is not a spelling error. It is the <a href="http://dialectblog.com/2011/04/07/mom-mum-mam/">northern dialect</a> way of spelling "mum".</p>
+        </div>
+    </div>
+</div>
+
+<!--     </section>
+{% comment %}
+        {% include 'partials/wedding-party.html' %}
+{% endcomment %} -->
+    <section id="other-stuff" class="bg-primary">
+        <!-- {% comment %}
+        {% include 'partials/misc.html' %}
+        {% endcomment %} -->
+    </section>
+    <section id="gifts">
+        <div class="container">
+        <h2 class="section-heading text-center">Gifts</h2>
+        <hr class="primary">
+        <p>
+            GIFTS.
+        </p>
+</div>
+
+    </section>
+    <section id="story" class="bg-dark">
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="section-heading text-center">Our Story</h2>
+            <hr class="primary">
+            <p>
+                STORY
+            </p>
+            <p>
+                STORY CONTINUES
+            </p>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <header id="second-header" class="secondary"></header>
+<!-- <h5 class="text-center text-muted">Photos from where we got engaged.</h5> -->
+<section id="proposal">
+    <div class="container">
+        <div class="col-lg-12">
+            <h2 class="section-heading text-center">The Proposal</h2>
+            <hr class="primary">
+            <p>
+                Proposal story.
+            </p>
+        </div>
+    </div>
+</section>
+    <section id="contact" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact us!</h2>
+                    <hr class="primary">
+                    <p>If you have any questions don't hesitate to reach out!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:{{ support_email }}">matthew.haertsch@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- {% endblock %} -->
+
+
+
+</body>
+
+
+
+</html>
