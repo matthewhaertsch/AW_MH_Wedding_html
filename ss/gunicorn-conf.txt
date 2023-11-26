@@ -1,0 +1,11 @@
+[program:gunicorn]
+directory=/home/ubuntu/MH_AW_Wedding
+command=/home/ubuntu/env/bin/gunicorn --workers 3 --bind unix:/home/ubuntu/MH_AW_Wedding/app.sock TheSite.wsgi:application
+autostart=true
+autorestart=true
+startsecs=0
+stderr_logfile=/var/log/gunicorn/gunicorn.err.log
+stdout_logfile=/var/log/gunicorn/gunicorn.out.log
+
+[group:guni]
+programs:gunicorn
