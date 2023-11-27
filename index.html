@@ -16,53 +16,9 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- {% endblock %} -->
-<!-- {% block page_js %} -->
-    <!-- Plugin JavaScript -->
-    <!-- Easing is for the vertical scroll animations -->
-    <script src="static/creative/js/jquery.easing.min.js"></script>
-    <!-- Automatically fit text based on screen size.-->
-    <script src="static/creative/js/jquery.fittext.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="static/creative/js/creative.js"></script>
-<!-- {% endblock %} -->
-
-<!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="static/creative/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="static/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-    <script src="static/TheSite/js/footer.js"></script>
-    <script>
-        $(document).ready(function(){
-            setFooterStyle();
-            setFooterStyle();  // hack, for some reason this needs to be called twice on load
-            window.onresize = setFooterStyle;
-        });
-    </script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- {% include "partials/google-analytics.html" %} -->
-    <!-- {% block page_head %} -->
-    <!-- {% endblock %} -->
 </head>
 <body id="page-top">
-<!-- {% block page_content %}{% endblock %} -->
-<!-- {% include "partials/footer.html"  %} -->
-
-<!-- {% block page_js %} -->
-<!-- {% endblock %} -->
-
-<!-- {% extends "base.html" %}
-{% load static %}
-{% block page_head %} -->
+    <!-- {% endblock %} -->
     <!-- Custom CSS -->
     <link href="static/TheSite/css/creative.css" rel="stylesheet">
 <!-- {% endblock %} -->
@@ -140,10 +96,10 @@
                         Please see below for important details about <a href="#wedding-event" class="page-scroll">The Wedding</a> on Friday 16 August 2024.
                     </p>
                     <p>
-                        We have put together some information about <a href="#alnwick" class="page-scroll">Alnwick</a> including recommendations for accommodation as well as local highlights in the Northumberland / NE region of the UK.
+                        We have put together some information about <a href="#alnwick" class="page-scroll">Alnwick</a> including recommendations for accommodation as well as local highlights in the Northumberland / North-East region of the UK.
                     </p>
                     <p>
-                        If you have any questions then please don't hesitate to contact us via Matt's email at <a href="mailto:{{ support_email }}">matthew.haertsch@gmail.com</a>.
+                        <strong>Please confirm you have seen these details and RSVP as soon as possible via Matt's email at</strong> <a href="mailto:{{ support_email }}">matthew.haertsch@gmail.com</a>. If you have any questions then please don't hesitate to contact us.
                     </p>
                     <p>
                         Looking forward to seeing everyone soon!
@@ -315,7 +271,7 @@
         <div class="col-lg-12">
             <h2 class="section-heading text-center">Alnwick</h2>
             <hr class="primary">
-            <p>Alnwick is  ... DESCRIBE THE TOWN AND NORTHUMBERLAND </p>
+            <p>Alnwick is  ...  </p>
             <h3>Getting There </h3>
             <p>
                 We recommend using public transport to travel to and from Alnwick. The closest train station is Alnmouth. There are regular, direct trains from London Kings Cross that take approximately 3 and a half hours (quite impressive when you consider it is around 500km). The best time to buy tickets is roughly 8-12 weeks from when you would like to travel. We use <a href="https://www.thetrainline.com/">trainline</a>.
@@ -384,7 +340,7 @@
         <h2 class="section-heading text-center">Gifts</h2>
         <hr class="primary">
         <p>
-            GIFTS.
+            We will provide updates soon.
         </p>
 </div>
 
@@ -396,10 +352,10 @@
             <h2 class="section-heading text-center">Our Story</h2>
             <hr class="primary">
             <p>
-                STORY
+                We thought it would be nice to share a bit more about ourselves, how we met and ended up together. But we've run out of time so will get this section in the next update of the website.
             </p>
             <p>
-                STORY CONTINUES
+                More to come soon.
             </p>
         </div>
     </div>
@@ -414,7 +370,7 @@
             <h2 class="section-heading text-center">The Proposal</h2>
             <hr class="primary">
             <p>
-                Proposal story.
+                Stay tuned for our proposal story.
             </p>
         </div>
     </div>
@@ -435,6 +391,27 @@
         </div>
     </section>
     <!-- {% endblock %} -->
+
+<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- {#    <script src="static/creative/js/jquery.js"></script>#} -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="static/TheSite/js/footer.js"></script>
+    <script>
+        $(document).ready(function() {
+            setFooterStyle();
+            setFooterStyle();  // hack, for some reason this needs to be called twice on load
+            window.onresize = setFooterStyle;
+        });
+    </script>
+
+<script src="static/creative/js/jquery.easing.min.js"></script>
+    <!-- Automatically fit text based on screen size.-->
+    <script src="static/creative/js/jquery.fittext.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="static/creative/js/creative.js"></script>
 
 
 
