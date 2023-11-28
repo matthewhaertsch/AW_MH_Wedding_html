@@ -1402,11 +1402,11 @@ a.bg-warning:focus {
   background-color: #f7ecb5;
 }
 .bg-danger {
-  background-color: #f2dede;
+  background-color: rgba(51, 170, 51, .6);
 }
 a.bg-danger:hover,
 a.bg-danger:focus {
-  background-color: #e4b9b9;
+  background-color: rgba(51, 170, 51, .6);
 }
 .page-header {
   padding-bottom: 9px;
