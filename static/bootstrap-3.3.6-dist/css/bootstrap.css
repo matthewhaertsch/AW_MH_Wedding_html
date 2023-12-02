@@ -1388,11 +1388,13 @@ a.bg-success:focus {
   background-color: #c1e2b3;
 }
 .bg-info {
-  background-color: #d9edf7;
+/*  background-color: #d9edf7;*/
+  background-color: rgba(85, 93, 97, 0.1);
 }
 a.bg-info:hover,
 a.bg-info:focus {
-  background-color: #afd9ee;
+/*  background-color: #afd9ee;*/
+  background-color: rgba(69, 85, 93, 0.1);
 }
 .bg-warning {
   background-color: #fcf8e3;
