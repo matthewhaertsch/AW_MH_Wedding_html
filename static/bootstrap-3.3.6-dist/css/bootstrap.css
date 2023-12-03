@@ -1389,12 +1389,12 @@ a.bg-success:focus {
 }
 .bg-info {
 /*  background-color: #d9edf7;*/
-  background-color: rgba(85, 93, 97, 0.1);
+  background-color: rgba(85, 93, 97, 0.05);
 }
 a.bg-info:hover,
 a.bg-info:focus {
 /*  background-color: #afd9ee;*/
-  background-color: rgba(69, 85, 93, 0.1);
+  background-color: rgba(69, 85, 93, 0.05);
 }
 .bg-warning {
   background-color: #fcf8e3;
@@ -1589,6 +1589,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: rgba(0,0,255,0.05);
 }
 @media (min-width: 768px) {
   .container {
