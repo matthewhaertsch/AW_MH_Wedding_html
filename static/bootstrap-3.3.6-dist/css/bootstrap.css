@@ -1589,7 +1589,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(0,0,255,0.05);
 }
 @media (min-width: 768px) {
   .container {
